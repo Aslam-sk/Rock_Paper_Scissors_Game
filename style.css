@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+body {
+  background-color: rgb(47, 248, 171);
+}
+
+.para {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+h1 {
+  background-color: #081b31;
+  color: #fff;
+  height: 5rem;
+  line-height: 5rem;
+}
+
+h2 {
+  color: rgb(255, 0, 0);
+}
+
+img:hover {
+  opacity: 0.5;
+  border: 5px solid black;
+}
+
+.choice {
+  height: 170px;
+  width: 170px;
+  border-radius: 50%;
+}
+
+#rock,
+#paper,
+#scissors {
+  cursor: pointer;
+}
+
+img {
+  height: 150px;
+  width: 150px;
+  object-fit: cover;
+  border: 2px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.choices {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  margin: 4rem;
+}
+
+.Score-Board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 7rem;
+  margin-top: 3rem;
+  font-size: 2rem;
+}
+
+#computer-score,
+#player-score {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+#mess-cointainer {
+  font-size: 2rem;
+  margin-top: 5rem;
+}
+
+#message {
+  color: white;
+  background-color: #081b31;
+  display: inline;
+  margin-top: 3rem;
+  font-size: 1.6rem;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  position: relative;
+  bottom: 2rem;
+}
+
+#reset-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 300;
+    cursor: pointer;
+  }
+  
+  #reset-button:hover {
+    background-color: #22b427;
+  }
